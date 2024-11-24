@@ -15,14 +15,14 @@ Este repositório contém a automação de testes funcionais para o site BugBank
 
 ---
 
-## **Sobre o Projeto**
+## **💡Sobre o Projeto**
 O BugBank é um site criado para treinar cenários de teste em um ambiente quase real. Este projeto tem como objetivo desenvolver e executar testes automatizados para garantir a integridade das principais funcionalidades da aplicação.
 
 Os testes foram escritos para verificar tanto cenários positivos quanto negativos, cobrindo possíveis falhas que podem ocorrer durante o uso do sistema.
 
 ---
 
-## **❌✔Funcionalidades Testadas**
+## **✅Funcionalidades Testadas**
 
 1. **Cadastro de Usuário**
    - Criação de contas com ou sem saldo inicial.
@@ -53,7 +53,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **📚Pré-requisitos**
+## **📋Pré-requisitos**
 
 Certifique-se de ter instalado:
 
@@ -63,7 +63,7 @@ Certifique-se de ter instalado:
 
 ---
 
-## **⁉Como Executar**
+## **🚀Como Executar**
 
 1. Clone o repositório:
    ```bash
@@ -104,7 +104,7 @@ Certifique-se de ter instalado:
    ![image](https://github.com/user-attachments/assets/4b592ffa-8227-4612-a305-87802e923d3c)
 
 
-# **Estrutura do Projeto**
+# **📂Estrutura do Projeto**
 ```plaintext
 DB-BugBank/
 ├── cypress/
@@ -123,6 +123,6 @@ DB-BugBank/
 ```
 ---
 
-## **Licença**
+## **🧾Licença**
 
 Este projeto está licenciado sob a licença [MIT](LICENSE). Consulte o arquivo `LICENSE` para mais informações.
