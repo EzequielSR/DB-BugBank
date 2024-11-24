@@ -22,9 +22,9 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **Funcionalidades Testadas**
+## **✅Funcionalidades Testadas**
 
-1. **✅Cadastro de Usuário**
+1. **Cadastro de Usuário**
    - Criação de contas com ou sem saldo inicial.
    - Validação de campos obrigatórios.
    - Mensagens de erro para entradas inválidas.
@@ -106,7 +106,22 @@ Certifique-se de ter instalado:
 ---
 ## **📂Estrutura do Projeto**
 
-
+```plaintext
+DB-BugBank/
+├── cypress/
+│   ├── e2e/
+│   │   ├── cadastro.cy.ts       # Testes de Cadastro
+│   │   ├── extrato.cy.ts        # Testes de Extrato
+│   │   ├── login.cy.ts          # Testes de Login
+│   │   └── transferencia.cy.ts  # Testes de Transferência
+│   ├── fixtures/             # Dados de entrada para os testes
+│   ├── support/              # Configurações e comandos personalizados
+├── node_modules/             # Dependências do projeto
+├── .gitignore                # Arquivos dispensáveis
+├── cypress.config.ts         # Configurações do Cypress
+├── package.json              # Gerenciador de dependências
+├── README.md                 # Documentação do projeto
+```
 ---
 
 ## **🧾Licença**
