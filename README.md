@@ -99,6 +99,10 @@ Certifique-se de ter instalado:
    ```bash
    npx cypress run
    ```
+   - Resultado dos testes:
+     
+   ![image](https://github.com/user-attachments/assets/4b592ffa-8227-4612-a305-87802e923d3c)
+
 
 # **Estrutura do Projeto**
 ```plaintext
