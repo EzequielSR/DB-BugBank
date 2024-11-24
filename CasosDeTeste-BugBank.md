@@ -36,9 +36,9 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 | Passo | Descrição                                                                 | Resultado Esperado                                   |
 |-------|---------------------------------------------------------------------------|----------------------------------------------------|
 | 1     | Acesse a página de login                                                 | Tela de login é carregada corretamente             |
-| 2     | Insira um email válido e uma senha incorreta e clique em "Entrar"        | Mensagem de erro: "Usuário e/ou senha inválidos"   |
-| 3     | Insira um email inexistente no campo de email e clique em "Entrar"       | Mensagem de erro: "Usuário e/ou senha inválidos"   |
-| 4     | Tente fazer login sem preencher os campos obrigatórios                   | Mensagem de erro: "Usuário e senha precisam ser preenchidos" |
+| 2     | Insira um email válido e uma senha incorreta e clique em "Entrar"        | Mensagem de erro: "Usuário ou senha inválidos. Tente novamente ou verifique suas informações!"   |
+| 3     | Insira um email inexistente no campo de email e clique em "Entrar"       | Mensagem de erro: "Usuário ou senha inválidos. Tente novamente ou verifique suas informações!"   |
+| 4     | Tente fazer login sem preencher os campos obrigatórios                   | Mensagem de erro: "É campo obrigatório" |
 
 **Pós-condições:**  
 - O usuário permanece na tela de login  
@@ -57,11 +57,11 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 
 | Passo | Descrição                                                               | Resultado Esperado                               |
 |-------|-------------------------------------------------------------------------|------------------------------------------------|
-| 1     | Acesse a página de cadastro                                             | Tela de cadastro é carregada corretamente       |
-| 2     | Deixe o campo de nome vazio e clique em "Cadastrar"                     | Mensagem de erro: "Nome não pode ser vazio"     |
-| 3     | Deixe o campo de email vazio e clique em "Cadastrar"                    | Mensagem de erro: "Email não pode ser vazio"    |
-| 4     | Preencha email inválido (ex: "email@semformato") e clique em "Cadastrar" | Mensagem de erro: "Email inválido"             |
-| 5     | Preencha senha e confirmação de senha diferentes e clique em "Cadastrar" | Mensagem de erro: "Senhas não conferem"        |
+| 1     | Acesse a página de registro                                             | Tela de registro é carregada corretamente       |
+| 2     | Deixe o campo de nome vazio e clique em "Cadastrar"                     | Mensagem de erro: "Nome não pode ser vazio."     |
+| 3     | Deixe o campo de email vazio e clique em "Cadastrar"                    | Mensagem de erro: "É campo obrigatório"    |
+| 4     | Preencha email inválido (ex: "email@semformato") e clique em "Cadastrar" | Mensagem de erro: "Formato inválido"             |
+| 5     | Preencha senha e confirmação de senha diferentes e clique em "Cadastrar" | Mensagem de erro: "As senhas não são iguais."        |
 | 6     | Marque a opção "Criar conta com saldo", preencha tudo corretamente e clique em "Cadastrar" | Conta criada com sucesso com saldo de R$ 1.000,00 |
 | 7     | Desmarque a opção "Criar conta com saldo", preencha tudo corretamente e clique em "Cadastrar" | Conta criada com sucesso com saldo de R$ 0,00 |
 
@@ -83,10 +83,8 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 | Passo | Descrição                                                                 | Resultado Esperado                                   |
 |-------|---------------------------------------------------------------------------|----------------------------------------------------|
 | 1     | Acesse a página de transferência                                         | Tela de transferência é carregada corretamente     |
-| 2     | Insira um valor maior do que o saldo disponível                          | Mensagem de erro: "Saldo insuficiente"             |
+| 2     | Insira um valor maior do que o saldo disponível                          | Mensagem de erro: "Você não tem saldo suficiente para esta transação."             |
 | 3     | Insira um número de conta inválido (ex: letras ou símbolos) e clique em "Transferir" | Mensagem de erro: "Conta inválida ou inexistente" |
-| 4     | Deixe o campo de descrição vazio e clique em "Transferir"                | Mensagem de erro: "Descrição é obrigatória"        |
-| 5     | Insira um valor negativo ou zero para transferência e clique em "Transferir" | Mensagem de erro: "Valor deve ser maior que zero" |
 
 **Pós-condições:**  
 - Nenhuma transferência é realizada com dados inválidos  
@@ -120,7 +118,7 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 **Título:** Realizar Login com Dados Válidos  
 
 **Pré-condições:**  
-- O usuário já possui uma conta cadastrada  
+- O usuário precisa registrar uma conta, pois é armazenado localmente e não em um banco de dados  
 - As credenciais de login estão corretas  
 
 **Passos:**
