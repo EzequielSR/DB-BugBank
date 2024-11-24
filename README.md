@@ -121,3 +121,8 @@ DB-BugBank/
 ├── package.json              # Gerenciador de dependências
 ├── README.md                 # Documentação do projeto
 ```
+---
+
+## **Licença**
+
+Este projeto está licenciado sob a licença [MIT](LICENSE). Consulte o arquivo `LICENSE` para mais informações.
