@@ -1,6 +1,6 @@
 describe('Validando cadastro', () => {
 
-    it('Realizar cadastro exibe número da conta', () => {
+    it('Ao realizar cadastro deve exibir número da conta', () => {
 
         cy.cadastroComSaldo().then(resp => {
             cy.get('.styles__ContainerContent-sc-8zteav-1').contains('foi criada com sucesso')
@@ -31,19 +31,19 @@ describe('Validando cadastro', () => {
 describe('Validando mensagens de obrigatóriedade de campos', () => {
 
 
-    it('Mensagem de obrigatóriedade de EMAIL', () => {
+    it('Deve mostrar mensagem de obrigatóriedade de email', () => {
         cy.aparecerMensagemObrigatorio().then(() => {
             cy.get('.styles__ContainerFormRegister-sc-7fhc7g-0 > :nth-child(2)').contains('É campo obrigatório')
         })
     })
 
-    it('Mensagem de obrigatóriedade de SENHA', () => {
+    it('Deve mostrar mensagem de obrigatóriedade de senha', () => {
         cy.aparecerMensagemObrigatorio().then(() => {
             cy.get(':nth-child(4) > .style__ContainerFieldInput-sc-s3e9ea-0').contains('É campo obrigatório')
         })
     })
 
-    it('Mensagem de obrigatóriedade de CONFIRMAÇÃO SENHA', () => {
+    it('Deve exibir mensagem de obrigatóriedade de confirmação de senha', () => {
         cy.aparecerMensagemObrigatorio().then(() => {
             cy.get(':nth-child(5) > .style__ContainerFieldInput-sc-s3e9ea-0').contains('É campo obrigatório')
         })
@@ -54,26 +54,26 @@ describe('Validando mensagens de obrigatóriedade de campos', () => {
 
 describe('Validando tentativas de cadastro sem preencher campos', () => {
 
-    it('Não deve cadastrar sem preencher EMAIL', () => {
+    it('Não deve cadastrar sem preencher email', () => {
 
         cy.cadastroSemEmail().then(() => {
             cy.get('.styles__ContainerFormRegister-sc-7fhc7g-0 > :nth-child(2)').contains('É campo obrigatório')
         })
     })
 
-    it('Não deve cadastrar sem preencher NOME', () => {
+    it('Não deve cadastrar sem preencher nome', () => {
         cy.cadastroSemNome().then(() => {
             cy.get('.styles__ContainerContent-sc-8zteav-1').contains('Nome não pode ser vazio.')
         })
     })
 
-    it('Não deve cadastrar sem preencher SENHA', () => {
+    it('Não deve cadastrar sem preencher senha', () => {
         cy.cadastroSemSenha().then(() => {
             cy.get(':nth-child(4) > .style__ContainerFieldInput-sc-s3e9ea-0').contains('É campo obrigatório')
         })
     })
 
-    it('Não deve cadastrar sem preencher CONFIRMAÇÃO SENHA', () => {
+    it('Não deve cadastrar sem preencher confirmação de senha', () => {
         cy.cadastroSemConfirmarSenha().then(() => {
             cy.get(':nth-child(5) > .style__ContainerFieldInput-sc-s3e9ea-0').contains('É campo obrigatório')
         })
@@ -82,7 +82,7 @@ describe('Validando tentativas de cadastro sem preencher campos', () => {
 
 describe('Validando criação de conta com saldo e sem saldo.', () => {
 
-    it('Criação de conta COM saldo', () => {
+    it('Criação de conta com saldo', () => {
 
         cy.cadastroComSaldo().then(resp => {
             cy.loginEmailUm(resp).then(() => {
@@ -91,7 +91,7 @@ describe('Validando criação de conta com saldo e sem saldo.', () => {
         })
     })
 
-    it('Criação de conta SEM saldo', () => {
+    it('Criação de conta sem saldo', () => {
 
         cy.cadastroSemSaldo().then(resp => {
             cy.loginEmailDois(resp).then(() => {
