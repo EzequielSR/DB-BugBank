@@ -53,7 +53,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **📚 Pré-requisitos**
+## **📚Pré-requisitos**
 
 Certifique-se de ter instalado:
 
@@ -63,7 +63,7 @@ Certifique-se de ter instalado:
 
 ---
 
-## **⁉ Como Executar**
+## **⁉Como Executar**
 
 1. Clone o repositório:
    ```bash
