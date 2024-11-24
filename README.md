@@ -4,7 +4,7 @@ Este repositório contém a automação de testes funcionais para o site BugBank
 
 ---
 
-## **Índice**
+## **📖Índice**
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades Testadas](#funcionalidades-testadas)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -22,7 +22,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **Funcionalidades Testadas**
+## **❌✔Funcionalidades Testadas**
 
 1. **Cadastro de Usuário**
    - Criação de contas com ou sem saldo inicial.
@@ -45,7 +45,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **Tecnologias Utilizadas**
+## **👩‍💻Tecnologias Utilizadas**
 
 - [Cypress](https://www.cypress.io/) - Framework de testes end-to-end.
 - **JavaScript** - Linguagem utilizada para interações e automações específicas.
@@ -53,7 +53,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **Pré-requisitos**
+## **📚 Pré-requisitos**
 
 Certifique-se de ter instalado:
 
@@ -63,7 +63,7 @@ Certifique-se de ter instalado:
 
 ---
 
-## **Como Executar**
+## **⁉ Como Executar**
 
 1. Clone o repositório:
    ```bash
