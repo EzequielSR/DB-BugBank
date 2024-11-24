@@ -8,11 +8,11 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 
 ## **📚 Índice**
 1. [Cenário de Teste 1 - Login com Dados Inválidos](#cenário-de-teste-1---login-com-dados-inválidos)
-2. [Cenário de Teste 2 - Cadastro com Dados Incompletos](#cenário-de-teste-2---cadastro-com-dados-incompletos)
+2. [Cenário de Teste 2 - Registro com Dados Incompletos](#cenário-de-teste-2---registro-com-dados-incompletos)
 3. [Cenário de Teste 3 - Transferência com Falhas](#cenário-de-teste-3---transferência-com-falhas)
 4. [Cenário de Teste 4 - Extrato com Dados Incorretos](#cenário-de-teste-4---extrato-com-dados-incorretos)
 5. [Cenário de Teste 5 - Login com Sucesso](#cenário-de-teste-5---login-com-sucesso)
-6. [Cenário de Teste 6 - Cadastro com Sucesso](#cenário-de-teste-6---cadastro-com-sucesso)
+6. [Cenário de Teste 6 - Registro com Sucesso](#cenário-de-teste-6---registro-com-sucesso)
 7. [Cenário de Teste 7 - Transferência com Sucesso](#cenário-de-teste-7---transferência-com-sucesso)
 8. [Cenário de Teste 8 - Verificação de Extrato com Sucesso](#cenário-de-teste-8---verificação-de-extrato-com-sucesso)
 9. [Observações](#-observações)
@@ -45,7 +45,7 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 
 ---
 
-### **Cenário de Teste 2 - Cadastro com Dados Incompletos**
+### **Cenário de Teste 2 - Registro com Dados Incompletos**
 **ID:** CT-006  
 **Título:** Tentativa de Cadastro com Dados Incompletos  
 
@@ -137,7 +137,7 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 
 ---
 
-### **Cenário de Teste 6 - Cadastro com Sucesso**
+### **Cenário de Teste 6 - Registro com Sucesso**
 **ID:** CT-010  
 **Título:** Realizar Cadastro com Dados Válidos  
 
