@@ -1,4 +1,4 @@
-# **BugBank Test Automation**
+# **BD-BugBank**
 
 Este repositório contém a automação de testes funcionais para o site BugBank. A aplicação foi testada utilizando [Cypress](https://www.cypress.io/) e o foco principal foi validar as funcionalidades de **Cadastro**, **Login**, **Transferências** e **Extrato**.
 
