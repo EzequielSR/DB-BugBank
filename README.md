@@ -83,7 +83,23 @@ Certifique-se de ter instalado:
    ```bash
    npx cypress open
    ```
-   
+   - 
+   ![image](https://github.com/user-attachments/assets/2ecd27e0-9df3-4a49-822d-741c9b5384d0)
+
+   ![image](https://github.com/user-attachments/assets/2f580c48-cee6-4e29-a5a2-4a966017299c)
+
+   ![image](https://github.com/user-attachments/assets/bae88e07-1784-4cb3-9d79-56367ebde664)
+
+5. Execute os testes no modo headless:
+   ```bash
+   npx cypress run
+   ```
+   - Resultado dos testes:
+   ![image](https://github.com/user-attachments/assets/cc5eecb6-c97e-418d-b6cd-525ed812c1dd)
+
+
 ---
 
-##**🧾Licença**
+## **🧾Licença**
+
+Este projeto está licenciado sob a licença [MIT](LICENSE). Consulte o arquivo `LICENSE` para mais informações.
