@@ -65,7 +65,7 @@ Certifique-se de ter instalado:
 
 ## **🚀Como Executar**
 
-1. Clone o repositório:
+1. Clone o repositório no terminal da sua IDE:
    ```bash
    git clone https://github.com/EzequielSR/DB-BugBank.git
    ```
