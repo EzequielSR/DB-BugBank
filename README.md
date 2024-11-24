@@ -11,7 +11,6 @@ Este repositório contém a automação de testes funcionais para o site BugBank
 - [Pré-requisitos](#pré-requisitos)
 - [Como Executar](#como-executar)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuições](#contribuições)
 - [Licença](#licença)
 
 ---
@@ -50,7 +49,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 - [Cypress](https://www.cypress.io/) - Framework de testes end-to-end.
 - **JavaScript** - Linguagem utilizada para interações e automações específicas.
-- [@fake-js/fake](https://www.npmjs.com/package/@gake-js/faker) - Para geração de dados fictícios.
+- [@fake-js/fake](https://www.npmjs.com/package/@fake-js/faker) - Para geração de dados fictícios.
 
 ---
 
@@ -68,6 +67,19 @@ Certifique-se de ter instalado:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/bugbank-test-automation.git
+   git clone https://github.com/EzequielSR/DB-BugBank.git
+   ```
 
+2. Acesse o diretório do projeto:
+   ```bash
+   cd DB-BugBank
+   ```
 
+3. Instale as depências:
+   ```bash
+   npm install
+   ```
+4. Execute os testes no Cypress:
+   ```bash
+   npx cypress open
+   ```
