@@ -15,6 +15,7 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 6. [Cenário de Teste 6 - Cadastro com Sucesso](#cenário-de-teste-6---cadastro-com-sucesso)
 7. [Cenário de Teste 7 - Transferência com Sucesso](#cenário-de-teste-7---transferência-com-sucesso)
 8. [Cenário de Teste 8 - Verificação de Extrato com Sucesso](#cenário-de-teste-8---verificação-de-extrato-com-sucesso)
+9. [Observações](#-observações)
 
 ---
 
@@ -204,8 +205,11 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 
 ## **🔍 Observações**
 - **Ambiente de Teste**: Como o site não conta com banco de dados e usa armazenamento local, os testes precisam ser realizados em uma mesma sessão ou verificar o comportamento do armazenamento local no navegador.
+  
 - **Ferramentas sugeridas**: Para validar as requisições (se for possível testar APIs), utilize ferramentas como Postman ou Insomnia.
+
 - **Automação de Testes**: Considere utilizar Cypress para automatizar os cenários acima.
+
 - Garanta que todos os cenários considerem testes negativos (ex: campos vazios ou dados inválidos).
 
 ---
