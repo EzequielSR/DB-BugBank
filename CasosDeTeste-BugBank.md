@@ -203,8 +203,6 @@ Este arquivo contém a documentação detalhada dos casos de teste aplicados ao 
 
 ## **🔍 Observações**
 - **Ambiente de Teste**: Como o site não conta com banco de dados e usa armazenamento local, os testes precisam ser realizados em uma mesma sessão ou verificar o comportamento do armazenamento local no navegador.
-  
-- **Ferramentas sugeridas**: Para validar as requisições (se for possível testar APIs), utilize ferramentas como Postman ou Insomnia.
 
 - **Automação de Testes**: Considere utilizar Cypress para automatizar os cenários acima.
 
