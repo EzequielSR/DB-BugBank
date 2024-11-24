@@ -83,8 +83,19 @@ Certifique-se de ter instalado:
    ```bash
    npx cypress open
    ```
+   - Irá aparecer a interface do cypress. Selecione o E2E Testing para a execução da automação de teste.
+   
+![image](https://github.com/user-attachments/assets/7ca98352-69ad-4937-af3e-a6cfc78301a7)
 
-5. Execute os teste no modo headless:
+   - Utilize o navegador de sua preferência. Para a execução dos testes utilizei o navegador Edge.
+
+   ![image](https://github.com/user-attachments/assets/fef5f7c7-7a03-4466-a934-f3d973cc2d5c)
+
+   - Após a escolha do navegador será aberto uma janela com os arquivos para teste. Selecione o arquivo desejado e será rodado com sucesso.
+
+     ![image](https://github.com/user-attachments/assets/8fd5a7db-af2b-4335-8b72-6335a2ade9df)
+
+6. Execute os teste no modo headless:
    ```bash
    npx cypress run
    ```
