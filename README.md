@@ -1,10 +1,10 @@
-# **BugBank Test Automation**
+# **DB-BugBank**
 
 Este repositório contém a automação de testes funcionais para o site BugBank. A aplicação foi testada utilizando [Cypress](https://www.cypress.io/) e o foco principal foi validar as funcionalidades de **Cadastro**, **Login**, **Transferências** e **Extrato**.
 
 ---
 
-## **Índice**
+## **📚Índice**
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades Testadas](#funcionalidades-testadas)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -15,7 +15,7 @@ Este repositório contém a automação de testes funcionais para o site BugBank
 
 ---
 
-## **Sobre o Projeto**
+## **💡Sobre o Projeto**
 O BugBank é um site criado para treinar cenários de teste em um ambiente quase real. Este projeto tem como objetivo desenvolver e executar testes automatizados para garantir a integridade das principais funcionalidades da aplicação.
 
 Os testes foram escritos para verificar tanto cenários positivos quanto negativos, cobrindo possíveis falhas que podem ocorrer durante o uso do sistema.
@@ -24,7 +24,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ## **Funcionalidades Testadas**
 
-1. **Cadastro de Usuário**
+1. **✅Cadastro de Usuário**
    - Criação de contas com ou sem saldo inicial.
    - Validação de campos obrigatórios.
    - Mensagens de erro para entradas inválidas.
@@ -45,7 +45,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **Tecnologias Utilizadas**
+## **👩‍💻Tecnologias Utilizadas**
 
 - [Cypress](https://www.cypress.io/) - Framework de testes end-to-end.
 - **JavaScript** - Linguagem utilizada para interações e automações específicas.
@@ -53,7 +53,7 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 
 ---
 
-## **Pré-requisitos**
+## **📋Pré-requisitos**
 
 Certifique-se de ter instalado:
 
@@ -63,7 +63,7 @@ Certifique-se de ter instalado:
 
 ---
 
-## **Como Executar**
+## **🚀Como Executar**
 
 1. Clone o repositório:
    ```bash
@@ -83,3 +83,7 @@ Certifique-se de ter instalado:
    ```bash
    npx cypress open
    ```
+   
+---
+
+##**🧾Licença**
