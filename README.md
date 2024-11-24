@@ -83,3 +83,26 @@ Certifique-se de ter instalado:
    ```bash
    npx cypress open
    ```
+
+5. Execute os teste no modo headless:
+   ```bash
+   npx cypress run
+   ```
+
+# **Estrutura do Projeto**
+```plaintext
+DB-BugBank/
+├── cypress/
+│   ├── e2e/
+│   │   ├── cadastro.cy.ts       # Testes de Cadastro
+│   │   ├── extrato.cy.ts        # Testes de Extrato
+│   │   ├── login.cy.ts          # Testes de Login
+│   │   └── transferencia.cy.ts  # Testes de Transferência
+│   ├── fixtures/             # Dados de entrada para os testes
+│   ├── support/              # Configurações e comandos personalizados
+├── node_modules/             # Dependências do projeto
+├── .gitignore                # Arquivos dispensáveis
+├── cypress.config.ts         # Configurações do Cypress
+├── package.json              # Gerenciador de dependências
+├── README.md                 # Documentação do projeto
+```
