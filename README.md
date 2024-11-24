@@ -1,6 +1,6 @@
 # **BugBank Test Automation**
 
-Este repositório contém a automação de testes funcionais para o site BugBank. A aplicação foi testada utilizando **Cypress** e o foco principal foi validar as funcionalidades de **Cadastro**, **Login**, **Transferências** e **Extrato**.
+Este repositório contém a automação de testes funcionais para o site BugBank. A aplicação foi testada utilizando [Cypress](https://www.cypress.io/) e o foco principal foi validar as funcionalidades de **Cadastro**, **Login**, **Transferências** e **Extrato**.
 
 ---
 
@@ -49,9 +49,8 @@ Os testes foram escritos para verificar tanto cenários positivos quanto negativ
 ## **Tecnologias Utilizadas**
 
 - [Cypress](https://www.cypress.io/) - Framework de testes end-to-end.
-- **TypeScript** - Para maior robustez e tipagem no código.
 - **JavaScript** - Linguagem utilizada para interações e automações específicas.
-- **CSS** - Verificação de estilos e elementos de interface do BugBank.
+- [@fake-js/fake](https://www.npmjs.com/package/@gake-js/faker) - Para geração de dados fictícios.
 
 ---
 
