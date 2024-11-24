@@ -1,5 +1,5 @@
 # **📋 Casos de Teste - BugBank**
-## **Ambiente**: Web, Navegador Chrome 99, Mobile  
+## **Ambiente**: Web, Navegador Edge 99
 ## **Autor**: Ezequiel 
 
 Este arquivo contém a documentação detalhada dos casos de teste aplicados ao projeto **BugBank**.
